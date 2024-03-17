@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="reset.css">
+    <title>Profile card</title>
+</head>
+<body>
+
+    <div class="profile-card">
+        <figure class="profile-card_img">
+            <label class="preview">
+                <label for="mypicture" class="change-avatar" title="Thay doi avatar">
+                    <i class='bx bxs-camera'></i>
+                </label>
+            </label>
+            <input type="file" hidden id="mypicture">
+        </figure>
+
+        <div class="profile-card_desc">
+            <h1>Nguyen Quy Than</h1>
+            <div>Back-end Developer</div>
+            <div style="display: flex; align-items: center; gap: 10px; justify-content: center;">
+                <i class='bx bx-map'></i>
+                <span>ABC, New York</span>
+            </div>
+        </div>
+
+        <div class="profile-card_info">
+            <div class="counter">
+                <div class="number">850</div>
+                <div>Followers</div>
+            </div>
+            <div class="counter">
+                <div class="number">50</div>
+                <div>References</div>
+            </div>
+            <div class="counter">
+                <div class="number">105</div>
+                <div>Works</div>
+            </div>
+        </div>
+    
+        <div class="profile-card_social">
+            <a href="#" class="facebook"><i class='bx bxl-facebook' ></i></a>
+            <a href="#" class="twitter"><i class='bx bxl-twitter' ></i></a>
+            <a href="#" class="instagram"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="#" class="youtube"><i class='bx bxl-youtube' ></i></a>
+            <a href="#" class="github"><i class='bx bxl-github' ></i></a>
+        </div>
+    
+        <div class="profile-card_actions">
+            <button class="blue">Send Message</button>
+            <button class="orange">Follow Me</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
